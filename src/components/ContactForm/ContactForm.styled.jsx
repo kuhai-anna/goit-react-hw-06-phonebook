@@ -44,6 +44,8 @@ export const Field = styled(FormikField)`
   border: 1px solid ${props => props.theme.colors.border};
   border-radius: ${props => props.theme.spacing(1)};
 
+  font-size: 16px;
+
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
