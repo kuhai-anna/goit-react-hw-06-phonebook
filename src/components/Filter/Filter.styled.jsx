@@ -16,7 +16,7 @@ export const FilterLabelText = styled.span`
 
 export const FilterField = styled.input`
   padding: ${props => props.theme.spacing(1)} ${props => props.theme.spacing(2)};
-  width: ${props => props.theme.spacing(75.5)};
+  width: ${props => props.theme.spacing(72)};
 
   outline: none;
   border: 1px solid ${props => props.theme.colors.border};

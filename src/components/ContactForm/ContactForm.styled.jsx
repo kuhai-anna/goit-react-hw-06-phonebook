@@ -38,7 +38,7 @@ export const LabelText = styled.span`
 
 export const Field = styled(FormikField)`
   padding: ${props => props.theme.spacing(1)} ${props => props.theme.spacing(2)};
-  width: ${props => props.theme.spacing(67.5)};
+  width: ${props => props.theme.spacing(64)};
 
   outline: none;
   border: 1px solid ${props => props.theme.colors.border};
