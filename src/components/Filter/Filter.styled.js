@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FilterLabel = styled.label`
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => props.theme.spacing(8)};
+  margin-bottom: ${props => props.theme.spacing(5)};
 `;
 
 export const FilterLabelText = styled.span`
